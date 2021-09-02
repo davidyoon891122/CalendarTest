@@ -56,15 +56,31 @@
 		AD46149026E08E8B00FF9AFB /* CalendarTest */ = {
 			isa = PBXGroup;
 			children = (
-				AD46149126E08E8B00FF9AFB /* AppDelegate.swift */,
-				AD46149326E08E8B00FF9AFB /* SceneDelegate.swift */,
+				AD4614A526E09A2B00FF9AFB /* Resources */,
 				AD46149526E08E8B00FF9AFB /* ViewController.swift */,
-				AD46149726E08E8B00FF9AFB /* Main.storyboard */,
-				AD46149A26E08E8C00FF9AFB /* Assets.xcassets */,
-				AD46149C26E08E8C00FF9AFB /* LaunchScreen.storyboard */,
+				AD4614A626E09A4400FF9AFB /* Views */,
 				AD46149F26E08E8C00FF9AFB /* Info.plist */,
 			);
 			path = CalendarTest;
+			sourceTree = "<group>";
+		};
+		AD4614A526E09A2B00FF9AFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD46149126E08E8B00FF9AFB /* AppDelegate.swift */,
+				AD46149326E08E8B00FF9AFB /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AD4614A626E09A4400FF9AFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD46149726E08E8B00FF9AFB /* Main.storyboard */,
+				AD46149A26E08E8C00FF9AFB /* Assets.xcassets */,
+				AD46149C26E08E8C00FF9AFB /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
