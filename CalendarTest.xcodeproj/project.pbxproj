@@ -13,6 +13,8 @@
 		AD46149926E08E8B00FF9AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD46149726E08E8B00FF9AFB /* Main.storyboard */; };
 		AD46149B26E08E8C00FF9AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD46149A26E08E8C00FF9AFB /* Assets.xcassets */; };
 		AD46149E26E08E8C00FF9AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD46149C26E08E8C00FF9AFB /* LaunchScreen.storyboard */; };
+		AD63585E26E1B4DC00FE14D3 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD63585C26E1B4DC00FE14D3 /* CalendarCollectionViewCell.swift */; };
+		AD63585F26E1B4DC00FE14D3 /* CalendarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD63585D26E1B4DC00FE14D3 /* CalendarCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AD46149A26E08E8C00FF9AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD46149D26E08E8C00FF9AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD46149F26E08E8C00FF9AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD63585C26E1B4DC00FE14D3 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD63585D26E1B4DC00FE14D3 /* CalendarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				AD46149726E08E8B00FF9AFB /* Main.storyboard */,
 				AD46149A26E08E8C00FF9AFB /* Assets.xcassets */,
 				AD46149C26E08E8C00FF9AFB /* LaunchScreen.storyboard */,
+				AD63585C26E1B4DC00FE14D3 /* CalendarCollectionViewCell.swift */,
+				AD63585D26E1B4DC00FE14D3 /* CalendarCollectionViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD63585F26E1B4DC00FE14D3 /* CalendarCollectionViewCell.xib in Resources */,
 				AD46149E26E08E8C00FF9AFB /* LaunchScreen.storyboard in Resources */,
 				AD46149B26E08E8C00FF9AFB /* Assets.xcassets in Resources */,
 				AD46149926E08E8B00FF9AFB /* Main.storyboard in Resources */,
@@ -153,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD63585E26E1B4DC00FE14D3 /* CalendarCollectionViewCell.swift in Sources */,
 				AD46149626E08E8B00FF9AFB /* ViewController.swift in Sources */,
 				AD46149226E08E8B00FF9AFB /* AppDelegate.swift in Sources */,
 				AD46149426E08E8B00FF9AFB /* SceneDelegate.swift in Sources */,
